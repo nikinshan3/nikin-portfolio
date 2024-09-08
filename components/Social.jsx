@@ -1,12 +1,21 @@
 import Link from "next/link";
 
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedinIn,
+  FaYoutube,
+  FaTwitter,
+  FaInstagram,
+} from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
-  { icon: <FaLinkedinIn />, path: "" },
-  { icon: <FaYoutube />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  {
+    icon: <FaLinkedinIn />,
+    path: "https://www.linkedin.com/in/nikinshanfaizal/",
+  },
+  { icon: <FaGithub />, path: "https://github.com/nikinshan" },
+  { icon: <FaInstagram />, path: "https://www.instagram.com/nikinshan3/" },
+  { icon: <FaTwitter />, path: "https://x.com/nikinshan5645" },
 ];
 
 const Social = ({ containerStyles, iconStyles }) => {

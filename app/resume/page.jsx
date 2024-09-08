@@ -7,39 +7,43 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaStripe,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiAwsamplify,
+  SiAmazonroute53,
+  SiShopify,
+  SiAwslambda,
+  SiAmazoncognito,
+  SiMui,
+  SiPrisma,
+  SiHubspot,
+  SiPostgresql,
+} from "react-icons/si";
 
 // about data
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Hi, I'm Nikin Shan Faizal, a passionate full-stack developer with a keen eye for detail and a love for solving complex problems.With extensive experience in building robust web applications, I have a deep understanding of both frontend and backend technologies. Beyond coding, I have a creative side that I express through videography and editing, two hobbies that allow me to explore storytelling through a different lens. I believe in combining technical precision with artistic expression. With a discipline for time and an unwavering focus on delivering quality, I approach every project with dedication and strive for perfection in everything I do. When I'm not coding or editing videos, you can find me exploring new technologies, learning new skills, or experimenting with creative projects.",
   info: [
     {
-      fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldName: "Experience",
+      fieldValue: "3+ Years",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "+91 9037786473",
     },
-    {
-      fieldName: "Experience",
-      fieldValue: "12+ Years",
-    },
-    {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
-    },
+
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Indian",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "nikinshan3@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +51,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English,Malayalam",
     },
   ],
 };
@@ -57,37 +61,17 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Explore my professional journey through a range of projects and roles where I’ve applied my skills in full-stack development,tackled complex challenges, and contributed to impactful solutions.",
   items: [
     {
-      company: "Tech Solutions Inc.",
+      company: "Aptlylabs",
       position: "Full Stack Developer",
-      duration: "2022 - Present",
+      duration: "2023 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "Tata Consultancy Service",
+      position: "Backend Developer",
+      duration: "2021-2022",
     },
   ],
 };
@@ -97,37 +81,37 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Here’s a look at my educational journey, including my formal schooling, bachelor's degree and certifications from various online platforms.",
   items: [
     {
+      institution: "Online Course",
+      degree: "AWS Solution Architect Associate",
+      duration: "2024",
+    },
+    {
       institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
+      degree: "The Complete Shopify Dropshipping",
       duration: "2023",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
+      institution: "Online Course Platform",
+      degree: "Full Stack Web Development Bootcamp",
       duration: "2022",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "NSS College of Engineering",
+      degree: "Bachelors Degree",
+      duration: "2017-2021",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
+      institution: "KMHSS KOTTAKAl",
+      degree: "Higher Secondary Education",
+      duration: "2014-2016",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Vidyaniketan Public School",
+      degree: "SSLC",
+      duration: "2014",
     },
   ],
 };
@@ -136,7 +120,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I combine creativity with technical expertise to develop seamless web applications. Below is a selection of the technologies and tools I’m proficient in:",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -155,20 +139,54 @@ const skills = {
       name: "react.js",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <SiMui />,
+      name: "Material UI",
     },
     {
       icon: <FaNodeJs />,
       name: "node.js",
     },
     {
+      icon: <SiPrisma />,
+      name: "prisma",
+    },
+    {
+      icon: <FaStripe />,
+      name: "stripe",
+    },
+    {
+      icon: <SiShopify />,
+      name: "Shopify",
+    },
+    {
+      icon: <SiAwsamplify />,
+      name: "aws-amplify",
+    },
+    {
+      icon: <SiAmazonroute53 />,
+      name: "route53",
+    },
+
+    {
+      icon: <SiAwslambda />,
+      name: "lambda",
+    },
+    {
+      icon: <SiAmazoncognito />,
+      name: "cognito",
+    },
+    {
+      icon: <SiPostgresql />,
+      name: "Postgress",
+    },
+    {
+      icon: <SiHubspot />,
+      name: "Hubspot",
+    },
+
+    {
       icon: <FaFigma />,
-      name: "figma",
+      name: "Figma",
     },
   ],
 };
@@ -213,7 +231,7 @@ const Resume = () => {
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[800px] text-white/60 mx-auto xl:mx-0">
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -245,7 +263,7 @@ const Resume = () => {
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[800px] text-white/60 mx-auto xl:mx-0">
                   {education.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -278,30 +296,32 @@ const Resume = () => {
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  <p className="max-w-[800px] text-white/60 mx-auto xl:mx-0">
                     {skills.description}
                   </p>
                 </div>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
-                  {skills.skillList.map((skill, index) => {
-                    return (
-                      <li key={index}>
-                        <TooltipProvider delayDuration={100}>
-                          <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
-                                {skill.icon}
-                              </div>
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p className="capitalize">{skill.name}</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        </TooltipProvider>
-                      </li>
-                    );
-                  })}
-                </ul>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                    {skills.skillList.map((skill, index) => {
+                      return (
+                        <li key={index}>
+                          <TooltipProvider delayDuration={100}>
+                            <Tooltip>
+                              <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                                <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                                  {skill.icon}
+                                </div>
+                              </TooltipTrigger>
+                              <TooltipContent>
+                                <p className="capitalize">{skill.name}</p>
+                              </TooltipContent>
+                            </Tooltip>
+                          </TooltipProvider>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </ScrollArea>
               </div>
             </TabsContent>
 
@@ -312,7 +332,7 @@ const Resume = () => {
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[800px] text-white/60 mx-auto xl:mx-0">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
