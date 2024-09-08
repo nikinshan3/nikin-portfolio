@@ -16,13 +16,14 @@ const Home = () => {
             <span className="text-xl">Software Developer</span>
 
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Nikin Shan</span>
+              Hello I&apos;m <br />{" "}
+              <span className="text-accent">Nikin Shan</span>
             </h1>
 
             <p className="max-w-[500px] mb-9 text-white/80">
-              When I'm not coding or editing videos, you can find me exploring
-              new technologies, learning new skills, or experimenting with
-              creative projects.
+              When I&apos;m not coding or editing videos, you can find me
+              exploring new technologies, learning new skills, or experimenting
+              with creative projects.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

@@ -2,7 +2,7 @@
 
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 
 const projects = [
   {
@@ -98,7 +98,7 @@ const projects = [
 
 import { motion } from "framer-motion";
 import { ScrollArea } from "@/components/ui/scroll-area";
-const MAX_CHAR_LIMIT = 50;
+
 const Projects = () => {
   return (
     <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
@@ -112,12 +112,6 @@ const Projects = () => {
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >
           {projects.map((service, index) => {
-            const [isExpanded, setIsExpanded] = useState(false);
-
-            const toggleExpand = () => setIsExpanded(!isExpanded);
-            const shouldShowReadMore =
-              service.description.join(" ").length > MAX_CHAR_LIMIT;
-
             return (
               <div
                 key={index}
